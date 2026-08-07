@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.produtosapi.model.Produto;
 import com.produtosapi.repository.ProdutoRepository;
+import org.springframework.web.bind.annotation.PutMapping;
 
 @RestController
 @RequestMapping("produtos")
@@ -38,9 +39,15 @@ public class ProdutoController {
         return produtoRepository.findById(id).orElse(null);
     }
 
-    @DeleteMapping("{id}")
+    @DeleteMapping("/{id}")
     public void deletar(@PathVariable("id") String id) {
         produtoRepository.deleteById(id);
+    }
+
+    @PutMapping("/{id}")
+    public void atualizar(@PathVariable("id") String id, @RequestBody Produto produto) {
+        produto.setId(id);
+        produtoRepository.save(produto);
     }
 
 }
