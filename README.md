@@ -1,136 +1,42 @@
-# Trilha do Curso: Spring Boot Expert — JPA, REST, JWT, OAuth2 com Docker e AWS
+# Primeiros Passos com Spring Boot
 
-## Objetivo Geral
+Introdução prática ao desenvolvimento de aplicações com **Spring Boot**, desde a criação do projeto até a implementação de operações básicas com banco de dados utilizando **JPA**.
 
-Profissionalizar-se no desenvolvimento e na manutenção de aplicações Spring Boot, desde a construção de APIs REST até o deploy em produção na AWS, utilizando as principais tecnologias do ecossistema Java.
+## 📚 Conteúdo
 
----
+### Projeto Spring Boot
 
-## 1. Arquitetura do Ecossistema Spring
+* Criando um projeto Spring Boot
+* Conhecendo a estrutura do projeto
+* Dicas e configurações do Maven
+* Criando um Hello World com Spring Boot
 
-- Compreender a arquitetura do Spring Framework
-- Entender o funcionamento do Spring Boot
-- Injeção de Dependências (IoC)
-- Inversão de Controle (DI)
-- Auto Configuration
-- Organização em camadas
+### API e Endpoints
 
----
+* Criando endpoint para recebimento de produtos
+* Obtendo os dados de um produto
+* Deletando produtos
+* Atualizando produtos
+* Realizando buscas com parâmetros
 
-## 2. Persistência de Dados com JPA
+### Banco de Dados e JPA
 
-- Fundamentos de JPA
-- Hibernate
-- Mapeamento Objeto-Relacional (ORM)
-- Relacionamentos entre entidades
-- Consultas JPQL
-- Spring Data JPA
-- Paginação e Ordenação
-- Boas práticas de persistência
+* Configurando a conexão com o banco de dados
+* Executando SQL durante a inicialização da aplicação
+* Criando o mapeamento JPA da entidade `Produto`
+* Persistindo produtos no banco de dados
 
----
+### 🎯 Objetivo
 
-## 3. Desenvolvimento de APIs REST
+Desenvolver uma aplicação Spring Boot básica, compreendendo a estrutura do projeto, configuração do **Maven**, integração com **banco de dados**, mapeamento com **JPA** e implementação das principais operações de **CRUD**.
 
-- Conceitos RESTful
-- Controllers
-- DTOs
-- Services
-- Repositories
-- Validações
-- Tratamento global de exceções
-- Códigos HTTP
-- Versionamento de APIs
-- Recursos avançados para APIs REST
+## 📝 Resumo
 
----
-
-## 4. Segurança com Spring Security
-
-- Conceitos de autenticação
-- Conceitos de autorização
-- Spring Security
-- Filtros de segurança
-- JWT (JSON Web Token)
-- Controle de acesso baseado em Roles
-- Proteção de endpoints
-
----
-
-## 5. OAuth2 e Login Social
-
-- Conceitos de OAuth2
-- Authorization Server
-- Resource Server
-- Cliente OAuth2
-- Login com Google
-- Login com outros provedores
-- Criação de um serviço próprio de autenticação e autorização
-
----
-
-## 6. Docker
-
-- Conceitos de Containers
-- Docker Engine
-- Dockerfile
-- Construção de imagens
-- Docker Compose
-- Execução de aplicações Spring Boot em containers
-- Integração com banco de dados
-
----
-
-## 7. Testes
-
-- Testes Unitários
-- Testes de Integração
-- JUnit
-- Mockito
-- Testes de Controllers
-- Testes de Services
-- Boas práticas de testes automatizados
-
----
-
-## 8. Documentação de APIs
-
-- Swagger UI
-- OpenAPI
-- Documentação automática
-- Teste dos endpoints pela documentação
-
----
-
-## 9. Deploy na AWS
-
-- Deploy de aplicações Spring Boot
-- Configuração de ambiente
-- Publicação da aplicação
-- Serviços AWS utilizados
-
-### Banco de Dados na AWS
-
-- Amazon RDS
-- Configuração de banco de dados
-- Integração da aplicação com RDS
-
----
-
-# Competências Desenvolvidas
-
-Ao concluir esta trilha, você será capaz de:
-
-- Desenvolver aplicações Spring Boot de pequeno e grande porte.
-- Compreender toda a arquitetura do ecossistema Spring.
-- Trabalhar com bancos de dados utilizando JPA e Hibernate.
-- Desenvolver APIs REST profissionais.
-- Aplicar autenticação e autorização utilizando Spring Security.
-- Implementar autenticação com JWT.
-- Implementar OAuth2 e Login Social.
-- Criar seu próprio servidor de autenticação.
-- Containerizar aplicações com Docker.
-- Escrever testes unitários e de integração.
-- Documentar APIs utilizando Swagger/OpenAPI.
-- Realizar deploy de aplicações na AWS.
-- Utilizar o Amazon RDS para bancos de dados em produção.
+* Criação e configuração de um projeto Spring Boot
+* Estrutura e gerenciamento de dependências com Maven
+* Criação de endpoints REST
+* Configuração de banco de dados
+* Mapeamento JPA
+* Persistência e consulta de dados
+* Operações de CRUD
+* Boas práticas e dicas adicionais
